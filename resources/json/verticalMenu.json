@@ -1,0 +1,78 @@
+{
+  "menu": [
+    {
+      "url": "javascript:void(0)",
+      "name": "Dashboard",
+      "i18n": "Dashboard",
+      "class": "collapsible-header waves-effect waves-cyan",
+      "slug": "dashboard",
+      "icon": "settings_input_svideo",
+      
+      "tagcustom": "badge pill orange float-right mr-10"
+    },
+    
+    {
+      "navheader": "Applications",
+      "icon": "more_horiz"
+    },
+    {
+      "url": "#",
+      "name": "Aboutus",
+      "i18n": "Aboutus",
+      "class": "waves-effect waves-cyan",
+      "icon": "mail_outline",
+      "slug": "app-email",
+      
+      "tagcustom": "new badge pill pink accent-2 float-right mr-2"
+    },
+    
+    {
+      "url": "#",
+      "name": "Services",
+      "i18n": "Services",
+      "class": "waves-effect waves-cyan",
+      "icon": "check",
+      "slug": "app-todo"
+    },
+    {
+      "url": "#",
+      "name": "Portfolio",
+      "i18n": "Portfolio",
+      "class": "waves-effect waves-cyan",
+      "icon": "format_list_bulleted",
+      "slug": "app-kanban"
+    },
+    {
+      "url": "#",
+      "name": "News",
+      "i18n": "News",
+      "class": "waves-effect waves-cyan",
+      "icon": "content_paste",
+      "slug": "app-file-manager"
+    },
+    {
+      "url": "app-contacts",
+      "name": "Contactus",
+      "i18n": "Contactus",
+      "class": "waves-effect waves-cyan",
+      "icon": "import_contacts",
+      "slug": "app-contacts"
+    },
+    {
+      "url": "#",
+      "name": "Careers",
+      "i18n": "Careers",
+      "class": "waves-effect waves-cyan",
+      "icon": "today",
+      "slug": "app-calendar"
+    },
+    {
+      "url": "#",
+      "name": "Settings",
+      "i18n": "Settings",
+      "class": "waves-effect waves-cyan",
+      "icon": "today",
+      "slug": "app-calendar"
+    }
+  ]
+}
