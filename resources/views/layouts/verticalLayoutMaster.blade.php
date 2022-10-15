@@ -35,6 +35,8 @@
       @endif
       <div class="col s12">
         <div class="container">
+          {{--  flash message --}}
+          @include('panels.flash-message')
           {{-- main page content --}}
           @yield('content')
           {{-- right sidebar --}}

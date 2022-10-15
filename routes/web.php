@@ -20,6 +20,9 @@ use App\Http\Controllers\DataTableController;
 use App\Http\Controllers\FormController;
 use App\Http\Controllers\ChartController;
 use App\Http\Controllers\Auth\LoginController;
+/**** new controller */
+use App\Http\Controllers\Contactus;
+use App\Http\Controllers\Career;
 
 /*
 |--------------------------------------------------------------------------
@@ -49,7 +52,16 @@ Route::get('/page-500', [MiscController::class, 'page500']);
 
 Route::group(['middleware' => ['auth']], function () {
 
+  /**** new pages */
+  Route::get('contact-us', [Contactus::class,'index'])->name('contact-us');
+  Route::post('contact-us', [Contactus::class,'store'])->name('contact-us');
+  Route::post('contact-us/{id}', [Contactus::class,'update'])->name('contactus-update');
   
+  Route::get('career', [Career::class,'index'])->name('career');
+  Route::post('career', [Career::class,'store'])->name('career');
+
+
+
   Route::get('logout', [LoginController::class,'logout']);
 // Dashboard Route
 // Route::get('/', [DashboardController::class, 'dashboardModern'])->middleware('verified');
